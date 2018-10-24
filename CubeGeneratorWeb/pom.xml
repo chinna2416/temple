@@ -16,32 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <plugins>
-            <plugin>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.8.2</version>
-                <executions>
-                    <execution>
-                        <id>default-deploy</id>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
-                    </execution>
-                    <execution>
-    
-    <finalName>CubeGeneratorWeb</finalName>
+   <finalName>CubeGeneratorWeb</finalName>
   </build>
 </project>
-<distributionManagement>
-	<repository>
-		<id>deployement</id>
-		<name>sample-release</name>
-		<url>http://18.206.119.90:8081/repository/sample-release</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deployement</id>
-		<name>sample-sanpshot</name>
-		<url>http://18.206.119.90:8081/repository/sample-sanpshot</url>
-	</snapshotRepository>
-</distributionManagement>
